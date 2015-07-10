@@ -1,10 +1,19 @@
-body {background: linear-gradient(209deg, #0000ff, #ffff00, #ff0000);
-background-size: 600% 600%;
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
--webkit-animation: AnimationName 41s ease infinite;
--moz-animation: AnimationName 41s ease infinite;
-animation: AnimationName 41s ease infinite;
-
+body {
+	background: linear-gradient(209deg, #0000ff, #ffff00, #ff0000);
+	background-size: 600% 600%;
+	-webkit-animation: AnimationName 41s ease infinite;
+	-moz-animation: AnimationName 41s ease infinite;
+	animation: AnimationName 41s ease infinite;
+}
+	
+    
 @-webkit-keyframes AnimationName {
     0%{background-position:94% 0%}
     50%{background-position:7% 100%}
@@ -20,4 +29,4 @@ animation: AnimationName 41s ease infinite;
     50%{background-position:7% 100%}
     100%{background-position:94% 0%}
 }
-}
+
