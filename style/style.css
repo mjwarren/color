@@ -1,4 +1,4 @@
-body {background: linear-gradient(209deg, #0000ff, #ffff00, #ff0000);
+background: linear-gradient(209deg, #0000ff, #ffff00, #ff0000);
 background-size: 600% 600%;
 
 -webkit-animation: AnimationName 41s ease infinite;
@@ -20,4 +20,4 @@ animation: AnimationName 41s ease infinite;
     50%{background-position:7% 100%}
     100%{background-position:94% 0%}
 }
-}
+
